@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>El Sazón al Instante</title>
+  <meta name="description" content="El Sazón al Instante - Pizzas y comida procesada deliciosa" />
+  <style>
+    :root{
+      --beige: #f6efe6;
+      --red: #d63031;
+      --orange: #ff7a2d;
+      --pink: #ff8fb1;
+      --text: #222;
+      --muted: #666;
+      --card-shadow: 0 8px 24px rgba(43,43,43,0.08);
+      font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+    }
+    body{margin:0;background:var(--beige);color:var(--text);}
+    .container{max-width:1100px;margin:0 auto;padding:28px 20px;}
+    header{text-align:center;padding:20px 0;}
+    header img{width:90px;height:auto;border-radius:12px;}
+    h1,h2{color:var(--red);}
+    .btn-whatsapp{
+      background:var(--red);color:white;padding:14px 20px;
+      border-radius:12px;text-decoration:none;font-weight:700;
+      display:inline-block;margin-top:16px;box-shadow:var(--card-shadow);
+    }
+    .btn-whatsapp:hover{background:var(--orange);}
+    footer{text-align:center;padding:20px;font-size:14px;color:var(--muted);}
+  </style>
+</head>
+<body>
+  <header>
+    <img src="IMG-20250901-WA0022.jpg" alt="Logo El Sazón al Instante" />
+    <h1>El Sazón al Instante</h1>
+    <p>Pizzas, Banderillas, Bagettes, Empanadas, Papas y más</p>
+    <a class="btn-whatsapp" href="https://wa.me/529992841840" target="_blank">📱 Ordena en WhatsApp</a>
+  </header>
+
+  <main class="container">
+    <section id="menu">
+      <h2>Menú destacado</h2>
+      <ul>
+        <li>Pizzas – clásicas y especiales con ingredientes frescos.</li>
+        <li>Banderillas – crocantes y rellenas.</li>
+        <li>Bagettes – calientes y listas para compartir.</li>
+        <li>Pastas – con salsas caseras.</li>
+        <li>Papas a la francesa / gajo – crujientes y sazonadas.</li>
+        <li>Pan de ajo – el acompañante perfecto.</li>
+        <li>Empanadas rellenas – de piña, queso y pepperoni.</li>
+        <li>Churros – dulces y fritos al momento.</li>
+        <li>Boneles – suaves y esponjosos.</li>
+        <li>Bebidas y jugos naturales (de temporada).</li>
+      </ul>
+    </section>
+
+    <section id="mision">
+      <h2>Nuestra misión</h2>
+      <p>Nuestra misión en <strong>El Sazón al Instante</strong> es llevar el sabor y la alegría a los momentos compartidos, ofreciendo pizzas y productos procesados deliciosos que superen las expectativas y hagan de cada comida una experiencia inolvidable.</p>
+    </section>
+
+    <section id="vision">
+      <h2>Visión</h2>
+      <p>Ser el lugar favorito de nuestros clientes y que disfruten de una experiencia única al ingerir nuestras pizzas de excelente calidad con ingredientes frescos y deliciosos.</p>
+    </section>
+
+    <section id="valores">
+      <h2>Valores</h2>
+      <ul>
+        <li><strong>Higiene:</strong> Mantenemos un entorno limpio y seguro.</li>
+        <li><strong>Respeto:</strong> Tratamos a nuestros clientes y compañeros con ética.</li>
+        <li><strong>Calidad y sabor:</strong> Ofrecemos productos deliciosos y de calidad.</li>
+        <li><strong>Colaboración:</strong> Fomentamos el trabajo en equipo y la eficiencia.</li>
+      </ul>
+    </section>
+
+    <section id="empresa">
+      <h2>Información legal</h2>
+      <p><strong>Nombre:</strong> El Sazón al Instante S.A. de C.V.<br>
+      <strong>RFC:</strong> ELS0109251Y8</p>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 El Sazón al Instante S.A. de C.V. · RFC: ELS0109251Y8
+  </footer>
+</body>
+</html>
